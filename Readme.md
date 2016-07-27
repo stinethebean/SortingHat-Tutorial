@@ -2,6 +2,8 @@
 
 In this tutorial I'll guide you though building your own Harry Potter sorting hat, using JavaScript and Microsoft Cognitive Services.
 
+We will be building our own version of [http://sortinghattutorial.azurewebsites.net](http://sortinghattutorial.azurewebsites.net) 
+
 ##Prerequisites##
 - Visual Studio Code
 - Microsoft Account
@@ -60,7 +62,7 @@ Find the code which looks like this (~line 18)
 
 	xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","YOUR-API-KEY-HERE"); 
 
-Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
+**TODO1** Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
 
 #### We're ready to test your sorting hat! ####
 Awesome! You've done all the work needed (I may have done some of the heavy lifing for you)
@@ -120,7 +122,7 @@ I created 4 initial algorithms:
 	//Ravenclaw score
     var rave = 0 + face.scores.neutral + face.scores.sadness;
 
-***TODO -** You should think about changing these rules for yourself*
+***TODO 2 -** You should think about changing these rules for yourself*
 
 
 Normal math rules apply below, you could try things like 
@@ -136,4 +138,10 @@ When writing your algorithms you'll want to test them with the following logic:
             4. If they don't equal the same number, then your distribution of each house is not equal
 
 
-***TODO -** Once you create a new algorithm, save your code, go to your web browser, refresh the page, and try an image. If you like the results, you're good to go, otherwise keep tweaking your sorting hat algorithms*
+***TODO 3 -** Once you create a new algorithm, save your code, go to your web browser, refresh the page, and try an image. If you like the results, you're good to go, otherwise keep tweaking your sorting hat algorithms*
+
+### Publishing to the cloud ###
+
+1. If you're interested in publishing this to the internet, it's pretty doable using an Azure Website!  [This is a good set of directions](http://www.c-sharpcorner.com/article/publish-website-using-github-in-azure-web-apps-with-continuo/ "This is a good set of directions ")
+
+
