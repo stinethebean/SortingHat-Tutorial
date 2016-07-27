@@ -24,8 +24,7 @@ We're going to be using Microsoft Cognitive Services' Emotion API as the brain o
 1. If you're familiar with Git, clone the repo or open it on your desktop. Otherwise, **Download ZIP**, save the ZIP file somewhere  you'll remember.   Extract that folder (so we can access all the files)
 2. Open VS Code, and open the folder we just extracted
 
-
- ![](http://i.imgur.com/Jakm8CP.gif)
+ ![](http://i.imgur.com/L67pMrW.gif)
 
 3. The two important files we have are:
 	- index.html  This this our website
@@ -75,7 +74,7 @@ To get this app to open, all you need to do is navigate to the folder where thes
 
 The page will then load and you can test it out
 
-
+ ![](http://i.imgur.com/Jakm8CP.gif)
 
 
 We call the [Microsoft Cognitive Services Emotion API](https://dev.projectoxford.ai/docs/services/5639d931ca73072154c1ce89/operations/563b31ea778daf121cc3a5fa "Microsoft Cognitive Services Emotion API") with the following code:
