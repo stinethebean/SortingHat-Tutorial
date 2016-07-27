@@ -62,7 +62,11 @@ Find the code which looks like this (~line 18)
 
 	xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","YOUR-API-KEY-HERE"); 
 
+<<<<<<< HEAD
 **TODO1** Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
+=======
+**TODO 1** Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
+>>>>>>> origin/master
 
 #### We're ready to test your sorting hat! ####
 Awesome! You've done all the work needed (I may have done some of the heavy lifing for you)
@@ -138,6 +142,7 @@ When writing your algorithms you'll want to test them with the following logic:
             4. If they don't equal the same number, then your distribution of each house is not equal
 
 
+<<<<<<< HEAD
 ***TODO 3 -** Once you create a new algorithm, save your code, go to your web browser, refresh the page, and try an image. If you like the results, you're good to go, otherwise keep tweaking your sorting hat algorithms*
 
 ### Publishing to the cloud ###
@@ -145,3 +150,6 @@ When writing your algorithms you'll want to test them with the following logic:
 1. If you're interested in publishing this to the internet, it's pretty doable using an Azure Website!  [This is a good set of directions](http://www.c-sharpcorner.com/article/publish-website-using-github-in-azure-web-apps-with-continuo/ "This is a good set of directions ")
 
 
+=======
+***TODO 2 -** Once you create a new algorithm, save your code, go to your web browser, refresh the page, and try an image. If you like the results, you're good to go, otherwise keep tweaking your sorting hat algorithms*
+>>>>>>> origin/master
