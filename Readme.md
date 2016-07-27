@@ -60,7 +60,7 @@ Find the code which looks like this (~line 18)
 
 	xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","YOUR-API-KEY-HERE"); 
 
-Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
+**TODO 1** Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
 
 #### We're ready to test your sorting hat! ####
 Awesome! You've done all the work needed (I may have done some of the heavy lifing for you)
@@ -136,4 +136,4 @@ When writing your algorithms you'll want to test them with the following logic:
             4. If they don't equal the same number, then your distribution of each house is not equal
 
 
-***TODO -** Once you create a new algorithm, save your code, go to your web browser, refresh the page, and try an image. If you like the results, you're good to go, otherwise keep tweaking your sorting hat algorithms*
+***TODO 2 -** Once you create a new algorithm, save your code, go to your web browser, refresh the page, and try an image. If you like the results, you're good to go, otherwise keep tweaking your sorting hat algorithms*
