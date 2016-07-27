@@ -23,6 +23,8 @@ We're going to be using Microsoft Cognitive Services' Emotion API as the brain o
 ## The Starter Code ##
 1. If you're familiar with Git, clone the repo or open it on your desktop. Otherwise, **Download ZIP**, save the ZIP file somewhere  you'll remember.   Extract that folder (so we can access all the files)
 2. Open VS Code, and open the folder we just extracted
+
+
  ![](http://i.imgur.com/L67pMrW.gif)
 
 3. The two important files we have are:
@@ -62,11 +64,9 @@ Find the code which looks like this (~line 18)
 
 	xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","YOUR-API-KEY-HERE"); 
 
-<<<<<<< HEAD
-**TODO1** Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
-=======
+
 **TODO 1** Where it says "YOUR-API-KEY-HERE" **replace it with your API key** from the *Getting Your API Key section*
->>>>>>> origin/master
+
 
 #### We're ready to test your sorting hat! ####
 Awesome! You've done all the work needed (I may have done some of the heavy lifing for you)
@@ -74,7 +74,8 @@ Awesome! You've done all the work needed (I may have done some of the heavy lifi
 To get this app to open, all you need to do is navigate to the folder where these files are and open index.html with your favorite web browser (edge, firefox, chrome, etc).
 
 The page will then load and you can test it out
-![](http://i.imgur.com/LedaaL5.gif)
+
+
 
 
 We call the [Microsoft Cognitive Services Emotion API](https://dev.projectoxford.ai/docs/services/5639d931ca73072154c1ce89/operations/563b31ea778daf121cc3a5fa "Microsoft Cognitive Services Emotion API") with the following code:
